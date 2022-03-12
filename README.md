@@ -1,6 +1,6 @@
 <div align="center">
 
-# K-POP Website Components
+# K-POP Blogger Components
 
 <p align="center">
   <img src="./img/logo.png" width="200"/>
