@@ -8,8 +8,9 @@
 <button class="round-button" id="select" onclick="videoPlay(4);">Moonlight</button>
 <button class="round-button" id="select" onclick="videoPlay(5);">Dangerous</button>
 <button class="round-button" id="select" onclick="videoPlay(6);">Give me your love</button>
+
 <script>
-    pipButton.addEventListener('click', function() {
+  pipButton.addEventListener('click', function() {
     videoPlayer.play();
     if (!document.pictureInPictureElement) {
       videoPlayer.requestPictureInPicture()
@@ -22,6 +23,7 @@
     }
   });
 </script>
+
 <style>
 .round-button {
 	position: relative;
@@ -39,37 +41,36 @@
 </style>
 
 <video controls="on" height="1" id="videoPlayer" playsinline="" x-webkit-airplay="allow">
-<script>
-let videoSource = new Array();
-videoSource[0] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/1.%20My%20Turn.mp4';
-videoSource[1] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/2.%20Call%20my%20name.mp4';
-videoSource[2] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/3.%20Mammoth.mp4';
-videoSource[3] = 'https://archive.org/download/wergqergjewporwerg/4.%20Bad%20Habits.mp4';
-videoSource[4] = 'https://archive.org/download/wergqergjewporwerg/5.%20Moonlight.mp4';
-videoSource[5] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/6.%20Dangerous.mp4';
-videoSource[6] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/7.%20Give%20me%20your%20love.mp4';
-let i = 0; // global
-const videoCount = videoSource.length;
-const element = document.getElementById("videoPlayer");
 
-function videoPlay(videoNum) {
-    element.setAttribute("src", videoSource[videoNum]);
-    element.autoplay = true;
-    element.load();
-    element.play();
-}
-document.getElementById('videoPlayer').addEventListener('ended', myHandler, false);
- 
-videoPlay(0); // play the video
- 
-function myHandler() {
-    i++;
-    if (i == videoCount) {
-        i = 0;
-        videoPlay(i);
-    } else {
-        videoPlay(i);
+  <script>
+    let videoSource = new Array();
+    videoSource[0] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/1.%20My%20Turn.mp4';
+    videoSource[1] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/2.%20Call%20my%20name.mp4';
+    videoSource[2] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/3.%20Mammoth.mp4';
+    videoSource[3] = 'https://archive.org/download/wergqergjewporwerg/4.%20Bad%20Habits.mp4';
+    videoSource[4] = 'https://archive.org/download/wergqergjewporwerg/5.%20Moonlight.mp4';
+    videoSource[5] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/6.%20Dangerous.mp4';
+    videoSource[6] = 'https://ia601505.us.archive.org/17/items/wergqergjewporwerg/7.%20Give%20me%20your%20love.mp4';
+    let i = 0; // global
+    const videoCount = videoSource.length;
+    const element = document.getElementById("videoPlayer");
+    function videoPlay(videoNum) {
+        element.setAttribute("src", videoSource[videoNum]);
+        element.autoplay = true;
+        element.load();
+        element.play();
     }
-}
-</script>
+    document.getElementById('videoPlayer').addEventListener('ended', myHandler, false);
+    videoPlay(0); // play the video
+    function myHandler() {
+        i++;
+        if (i == videoCount) {
+            i = 0;
+            videoPlay(i);
+        } else {
+            videoPlay(i);
+        }
+    }
+  </script>
+
 </video>
