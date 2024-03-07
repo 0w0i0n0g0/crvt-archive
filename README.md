@@ -49,7 +49,7 @@ CRVT archive is a blogger website developed to practice HTML, CSS, and JS.
 
 ## Records during the project
 
-[click 👉 Blog]([https://0w0i0n0g0.github.io/crvt-archive/](https://0w0i0n0g0.github.io/records-crvt-archive/))
+[click 👉 Blog](https://0w0i0n0g0.github.io/records-crvt-archive/)
 
 <br>
 <br>
