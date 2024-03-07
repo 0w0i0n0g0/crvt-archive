@@ -28,14 +28,14 @@ By_0w0i0n0g0
 
 ## Link to website
 
-click 👉 [CRVT archive](https://crvt-archive.blogspot.com/)
+[click 👉 CRVT archive](https://crvt-archive.blogspot.com/)
 
 <br>
 <br>
 
 ## Description
 
-CRVT archive is a blogger website I created for HTML, CSS, and JS practice.
+CRVT archive is a blogger website developed to practice HTML, CSS, and JS.
 
 <br>
 <br>
@@ -49,7 +49,7 @@ CRVT archive is a blogger website I created for HTML, CSS, and JS practice.
 
 ## Records during the project
 
-click 👉 [Blog](https://0w0i0n0g0.github.io/crvt-archive/)
+[click 👉 Blog]([https://0w0i0n0g0.github.io/crvt-archive/](https://0w0i0n0g0.github.io/records-crvt-archive/))
 
 <br>
 <br>
