@@ -35,7 +35,7 @@ By_0w0i0n0g0
 
 ## Description
 
-CRVT archive is a blogger website developed to practice HTML, CSS, and JS.
+CRVT archive is a blogger website that I made while practicing HTML, CSS, and JS.
 
 <br>
 <br>
